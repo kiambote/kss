@@ -18,6 +18,6 @@ Path - http://server.com/show/<streamer_key>.m3u8
 
 ### How to run
 1. Edit compose.yml to provide the right domain name
-2. Edit domain name and email in init-letsencrypt.sh 
-3. Run chmod +x init-letsencrypt.sh
-4. Run sudo ./init-letsencrypt.sh
+2. Edit domain name and email in setup.sh 
+3. Run chmod +x setup.sh
+4. Run sudo ./setup.sh
