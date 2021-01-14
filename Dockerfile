@@ -8,7 +8,7 @@ RUN rm -v nginx.conf
 COPY nginx.conf .
 
 WORKDIR /
-RUN mkdir mnt
+RUN mkdir /mnt
 
 RUN systemctl reload nginx
 
