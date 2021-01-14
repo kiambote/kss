@@ -13,4 +13,4 @@ RUN mkdir /mnt
 RUN sudo systemctl reload nginx
 
 EXPOSE 80
-EXPOSE 443
+EXPOSE 443 
