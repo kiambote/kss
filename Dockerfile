@@ -8,10 +8,10 @@ RUN cd /etc/nginx
 
 COPY nginx.conf .
 
-RUN DEBIAN_FRONTEND=noninteractive sudo certbot --nginx -d {SERVERNAME}
+RUN DEBIAN_FRONTEND=noninteractive certbot --nginx -d {SERVERNAME}
 RUN mkdir /mnt
 
-RUN sudo systemctl reload nginx
+RUN systemctl reload nginx
 
 EXPOSE 80
 EXPOSE 443 
