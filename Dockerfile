@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ENV SERVERNAME
+ENV SERVERNAME localhost
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nginx nginx-plus-module-rtmp libnginx-mod-rtmp certbot python3-certbot-nginx
 RUN cd /etc/nginx
