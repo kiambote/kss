@@ -5,7 +5,7 @@ A RTMP server for live streaming content with hls.
 Create a nginx rtmp server on top of docker to receive income data and make available to https server. Configure https with let's encrypt. Run on top of docker and the content is mouted to the folder on the machine /mmt
 
 ### Requirements
-1 . A domain name
+1 . A domain name\
 2 . A machine with docker installed
 
 ### Streamer
