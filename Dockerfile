@@ -7,7 +7,5 @@ WORKDIR /etc/nginx
 RUN rm -v nginx.conf
 COPY nginx.conf .
 
-RUN systemctl reload nginx
-
 EXPOSE 80
 EXPOSE 443
