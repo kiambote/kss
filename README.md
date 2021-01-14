@@ -17,4 +17,7 @@ Consumer is the entity that is watching or listening to the content.\
 Path - http://server.com/show/<streamer_key>.m3u8
 
 ### How to run
-docker run -d -p 80:80 -p 443:443 kiambotehub/kss:1.0.0 -e SERVERNAME=server.com
+1. Edit compose.yml to provide the right domain name
+2. Edit domain name and email in init-letsencrypt.sh 
+3. Run chmod +x init-letsencrypt.sh
+4. Run sudo ./init-letsencrypt.sh
